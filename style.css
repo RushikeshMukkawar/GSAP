@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230930/pngtree-a-blue-sky-above-clouds-with-clouds-image_13313410.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+    color: white;
+}
+
+#nav h2{
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#nav i{
+    background-color: black;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#full{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.412);
+    top: 0%;
+    right: -40%;
+    backdrop-filter: blur(10px);
+    padding: 150px 90px;
+}
+
+#full h4{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#full i{
+    position: absolute;
+    top: 4.5%;
+    right: 6%;
+    background-color: black;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+}
